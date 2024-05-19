@@ -1,0 +1,1149 @@
+
+.Top {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100vw;
+    height: 130px;
+}
+
+.Top a {
+    margin: auto;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin-left: 80%;
+    
+}
+
+.Top h1 {
+    padding-left: 5%;
+    font-weight: bold;
+    font-size: 50px;
+    color: #ff006e;
+}
+
+
+ .one {
+    background-image: url('landing.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -10px;
+    width: 100vw;
+    height: 600px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.one h1 {
+    font-size: 4em;
+    margin-bottom: -150px;
+}
+
+.one form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -200px;
+}
+
+#locationSearch {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: none;
+    border: none;
+}
+
+#locationSearch i {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.8rem;
+    color: #ff006e;
+}
+
+#mySearch {
+    padding: 10px 10px 10px 40px;
+    border: none;
+    width: 40vw;
+    height: 7vh;
+    border-radius: 50px 0 0 50px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#locationSearch > button {
+    background-color: #ff006e;
+    border: none;
+    margin-left: -10px;
+    width: 10vw;
+    height: 7vh;
+    border-radius: 0 50px 50px 0;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#locationSearch > input {
+    outline: none;
+}
+
+#mySearch::placeholder {
+    color: black;
+}
+
+.location-icon i {
+    font-size: 18px;
+}
+
+
+.two {
+    background-color: white;
+    margin-top: -10px;
+    width: 100vw;
+    height: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative; 
+    font-size: 30px;
+}
+
+.two  button {
+    background-color: #ff006e; 
+    border: none;
+    margin-left: -10px;
+    width: 350px; 
+    height: 60px;
+    border-radius: 50px ;
+    color: white; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+#image-section{
+    background-image: url("fuska.jpg");
+    height: 755px;
+    width: 75%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10vh;
+    margin-left: 10vw;
+    margin-bottom: 10vh;
+    border-radius: 50px;
+}
+#text-section{
+    margin: 10%;
+}
+
+
+#text-section h3{
+    font-size: 2em;
+    color: black;
+}
+#text-section p {
+    font-size: 1.5em;
+    color: black;
+}
+#text-section button{
+    background-color:#ff006e;
+
+} 
+
+
+.header-container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    margin: 30px;
+    margin-top: 200px;
+}
+
+.header-container .left-section {
+    display: flex;
+    align-items: center;
+}
+
+.header-container .left-section h2:first-child {
+    margin-right: auto; 
+}
+
+.header-container .right-section {
+    display: flex;
+    align-items: center;
+    margin-left: auto; 
+}
+
+.header-container h1 {
+    margin: 0 10px; 
+}
+
+.header-container i {
+    margin-left: 0; 
+}
+
+
+
+.popularContent{
+    width:100%; 
+    height: 85vh; 
+    margin: auto; 
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    justify-content: space-between;
+    overflow: hidden;
+}
+.popularContent>div{
+    margin: 5px;
+    border-radius: 50px;
+}
+.popularContent .details{
+    width: 100px;
+    height:10px;
+    margin-left: 10%;
+}
+
+#popular1{
+    border :none;
+    grid-row: 1/3;
+
+}
+#popular1, #popular2,#popular3,#popular4,#popular5{
+    padding: 20px;
+}
+
+
+.img1{
+    width: 90%;
+    height:80%;
+    margin:auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50px; 
+
+}
+
+#popular1 .img1{
+    height: 90%;
+}
+
+
+
+.popularContent .details{
+    display:flex;
+    width:300px;
+    height:40px;
+}
+#popular1 h2,#popular2 h2,#popular3 h2,#popular4 h2,#popular5 h2 {
+    margin-left:10%; 
+}
+#popular1 .img1{
+    background-image: url("pop1.jpg");
+} 
+#popular2 .img1{
+    background-image: url("pop2.jpg");
+} 
+
+#popular3 .img1{
+    background-image: url("pop3.jpg");
+} 
+
+#popular4 .img1{
+    background-image: url("pop4.jpg");
+} 
+
+#popular5 .img1{
+    background-image: url("pop5.jpg");
+} 
+
+
+
+
+
+.detail {
+    display: flex;
+    align-items: center; 
+    margin:5px;
+}
+
+.detail i.fas {
+    margin-right: 5px;
+}
+.detail p {
+    margin: 0; 
+}
+
+
+
+
+.third{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr;
+    
+}
+
+.fourth{
+    margin:5%;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+}
+.fourth p{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+           
+.fourth .box-content{
+    display: grid;
+    grid-template-columns:repeat(3,1fr) ;
+
+}
+
+.card {
+    width: 400px; 
+    height: 500px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    margin: 20px; 
+    position:relative;
+  }
+  
+
+   .card svg{
+    position:absolute;
+    margin-top: 10%;
+    margin-left: 40%;
+   }
+
+   
+  .card-content {
+    padding: 20px;
+  }
+
+.banner {
+    background-color: #ff6a90;
+    width: 70%;
+    height: 28vh;
+    padding: 20px;
+    padding-top: 5%;
+    color: white;
+    margin-left: 15%;
+    border-radius: 50px;
+    position: relative;
+}
+
+.banner h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#banimg1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="419" height="592" viewBox="0 0 419 592" fill="none"%3E%3Cpath fill-rule="evenodd" clip-rule="evenodd" d="M711.871 348.293C678.996 201.634 541.393 53.1515 443.682 217.577C420.023 257.388 377.946 282.901 331.616 285.601C238.786 291.011 140.344 245.819 91.5083 400.868C63.927 830.629 763.523 845.639 711.871 348.293Z" stroke="%23FF6A90"%3E%3C/path%3E%3C/svg%3E');
+    width: 500px;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#banimg2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="485" height="344" viewBox="0 0 485 344"%3E%3Cpath fill-rule="evenodd" clip-rule="evenodd" d="M792.484 258.918C750.644 71.7641 575.22 -117.652 450.482 92.2605C420.28 143.085 366.593 175.672 307.495 179.148C189.084 186.111 63.5472 128.496 1.15729 326.411C-34.2957 874.916 858.053 893.631 792.484 258.918Z" fill="%23FF487F" /%3E%3C/svg%3E');
+    width: 600px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+    border-radius: 50px;
+}
+
+.download-btn {
+    background-color: black;
+    padding: 15px 15px;
+    border: none;
+    border-radius: 50px;
+    font-size: 30px;
+    width: 250px;
+    height: 40px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.browse-btn {
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+  
+.container {
+    margin: 120px;
+    
+}
+.container h1{
+    font-size: 3em;
+}
+.container p{
+    font-size: larger;
+}
+.quote{
+    text-align: center;
+}
+
+
+
+
+
+
+.company {
+    background-image: url('company.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 45%;
+    height: 30vh;
+    padding: 20px;
+    padding-top: 10%;
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 26%;
+    border-radius: 50px;
+    position: relative;
+  }
+ 
+  .company h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+  #company-card{
+    background-color: #c5cbd1;
+    margin-left:  40% ;
+    margin-top: -15%;
+    width: 16%;
+    height: 25%;
+    border-radius: 50%;
+    position: absolute;
+    
+  }
+  #company-logo{
+    width: 1500px;
+    height: 120px;
+    margin-top: 30px;
+    margin-left: 200px;
+
+    background-image: url(companylogo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .footerNav ul{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+    
+  }
+  .footerNav ul>h1{
+    margin-left: 150px;
+    margin-right:100px;
+    color: #ff006e;
+    font-size: 3em;
+
+   
+  }
+
+
+  .footerNav ul>li{
+    margin-left: 50px;
+    margin-right:50px;
+    font-size: 1.5em;
+    font-weight: bold;
+
+
+  }
+
+  .footer {
+    width: 100vw;
+    height: 25vh;
+    background-color: #f8f9fa;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    position: relative;
+}
+
+
+
+
+.footer {
+    width: 100vw;
+    height: 25vh;
+    background-color: #f8f9fa;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    position: relative;
+}
+
+.footer ul {
+    list-style-type: none;
+    margin-top: 80px;
+}
+
+.footer ul > li {
+    font-size: larger;
+    margin: 10px;
+}
+
+
+ #footerimg1 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="485" height="344" viewBox="0 0 485 344"%3E%3Cpath fill-rule="evenodd" clip-rule="evenodd" d="M792.484 258.918C750.644 71.7641 575.22 -117.652 450.482 92.2605C420.28 143.085 366.593 175.672 307.495 179.148C189.084 186.111 63.5472 128.496 1.15729 326.411C-34.2957 874.916 858.053 893.631 792.484 258.918Z" fill="%23FF487F" /%3E%3C/svg%3E');
+    width: 600px; 
+    height: 450px;  
+    margin-right: 40px;
+     background-repeat: no-repeat;
+    background-size: cover; 
+} 
+
+#footerimg2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="419" height="592" viewBox="0 0 419 592" fill="none"%3E%3Cpath fill-rule="evenodd" clip-rule="evenodd" d="M711.871 348.293C678.996 201.634 541.393 53.1515 443.682 217.577C420.023 257.388 377.946 282.901 331.616 285.601C238.786 291.011 140.344 245.819 91.5083 400.868C63.927 830.629 763.523 845.639 711.871 348.293Z" stroke="%23FF6A90"%3E%3C/path%3E%3C/svg%3E');
+    width: 600px; 
+    height: 800px;  
+    margin-right: 40px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+     
+}
+
+
+
+
+
+/* Tablet Styles */
+@media only screen and (max-width: 768px) {
+    .Top {
+        grid-template-columns: 1fr; 
+        height: auto; 
+        padding: 10px; 
+    }
+
+    .Top a {
+        padding-left: 20px; 
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .Top h1 {
+        padding-left: 30%; 
+        font-size: 40px; 
+    }
+
+    .one h1 {
+        font-size: 2.5em; 
+    }
+
+    #mySearch {
+        width: 50vw;
+    }
+
+    #locationSearch > button {
+        width: 20vw; 
+    }
+    .two{
+        grid-template-columns: 1fr;
+        margin-bottom: 50px;
+    }
+   
+    #image-section {
+        height: 300px;
+        margin-bottom: 0vh;
+    }
+    #text-section{
+       margin:0%;
+       margin-bottom:10%;
+    }
+    #text-section button{
+        width: 185px; 
+        height: 55px;
+        font-size: 22px;
+    }
+    .header-container {
+        flex-direction: column; 
+        align-items: center; 
+        margin-top: -10px;
+    }
+    .header-container .left-section, 
+    .header-container .right-section {
+        width: 100%; 
+        margin-left: 150px; 
+    }
+    .header-container .right-section {
+         
+        margin-left: 250px; 
+    }
+
+    .header-container .left-section h1,
+    .header-container .right-section h1 {
+        font-size: 18px; 
+    }
+
+
+    .popularContent{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        height: 2000px;
+    }
+    .detail{
+        margin-top: -40px;
+    }
+    
+    #popular1 .img1   #popular2 .img1 #popular3 .img1   #popular4 .img1  #popular5 .img1{
+        height: 80%;
+    }
+        
+    .img1{
+    
+    height:200px;
+    }
+    .fourth .box-content{
+        grid-template-columns:1fr ;
+    
+    }
+
+    .banner {
+       
+        width: 75%;
+        height: 320px;
+        padding-top: 5%;
+    }
+    .banner h1 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    #banimg1 {
+        width: 100px;
+        height: 90px;
+      
+    }
+    
+    #banimg2 {
+        width: 120px;
+        height: 60px;
+       
+    }
+    .download-btn {
+        font-size: 22px;
+        width: 200px;
+        height: 38px;
+       
+    }
+    
+    .browse-btn {
+        font-size: 25px;
+        
+    }
+    .container h1{
+        font-size: 1.5em;
+    }
+      
+    
+    .company {
+        width: 50%;
+        height: 30vh;
+        padding: 20px;
+        padding-top: 10%;
+       
+      }
+      .company {
+        width: 300px;
+        height: 30vh;
+        padding: 20px;
+        padding-top: 10%;
+        margin-left: -50px;
+       
+      }
+      #company-card{
+       
+        margin-top: 0;
+
+        
+      }
+      #company-text{
+        margin-top: 100px;
+      }
+      #company-logo{
+        width: 110vw;
+        height: 80px;
+        margin-top: 30px;
+        margin-left: -30px;
+    
+      }
+      #footerimg1 {
+        width: 200px; 
+        height: 180px;  
+      } 
+
+     #footerimg2 {
+   
+       width: 180px; 
+      height: 400px;  
+   
+     }
+     .footerNav ul>h1{
+        margin-left: -30px;
+        margin-right: 10px;
+        font-size: 1.5em;
+    
+       
+      }
+    
+    
+      .footerNav ul>li{
+        margin-left: 10px;
+        margin-right:10px;
+        font-size: 0.8em;
+    
+      }
+       
+     .footer ul > li {
+        font-size: small;
+         margin: 0px;
+     }
+ 
+ 
+
+      
+
+
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 480px) {
+    .Top {
+        grid-template-columns: 1fr; 
+        height: auto; 
+        padding: 5px; 
+    }
+
+    .Top a {
+        padding-left: 10px; 
+        font-size: 20px; 
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .Top h1 {
+        padding-left: 30%; 
+        font-size: 30px; 
+    }
+    .one h1 {
+        font-size: 2em; 
+        margin-bottom: -100px; 
+    }
+
+    #mySearch {
+        width: 50vw; 
+        font-size: 15px;
+    }
+
+    #locationSearch > button {
+        width: 20vw; 
+        font-size: 15px;
+    }
+    .two {
+        grid-template-columns: 1fr;
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+  
+
+    #image-section {
+        height: 220px;
+        margin-bottom: 0vh;
+        
+    }
+    #text-section{
+        margin:0%;
+        margin-bottom:10%;
+    }
+
+    #text-section h3 {
+        font-size: 1.2em;
+    }
+
+    #text-section p {
+        font-size: 0.9em;
+    }
+
+    #text-section button {
+        width: 180px; 
+        height: 52px;
+        font-size: 20px;
+    }
+    .header-container {
+        flex-direction: column; 
+        align-items: center; 
+        margin-top: -10px;
+    }
+    .header-container .left-section, 
+    .header-container .right-section {
+        width: 100%; 
+        margin-left: 150px; 
+    }
+    .header-container .right-section {
+         
+        margin-left: 250px; 
+    }
+
+    .header-container .left-section h1,
+    .header-container .right-section h1 {
+        font-size: 18px; 
+    }
+    .popularContent{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        height: 2000px;
+    }
+    .detail{
+        margin-top: -40px;
+    }
+    
+    
+    
+         
+    .img1{   
+    height:200px;
+    
+    }
+
+    .fourth .box-content{
+        grid-template-columns:1fr ;
+    
+    }
+    .banner {
+       
+        width: 75%;
+        height: 320px;
+        padding-top: 5%;
+        margin-left: 15px;
+    }
+    .banner h1 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+      
+    #banimg1 {
+        width: 100px;
+        height: 90px;
+      
+    }
+    
+    #banimg2 {
+        width: 120px;
+        height: 60px;
+       
+    }
+    .container h1{
+        font-size: 1.5em;
+    }
+
+    
+    .company {
+        width: 300px;
+        height: 30vh;
+        padding: 20px;
+        padding-top: 10%;
+        margin-left: -50px;
+       
+      }
+
+      #company-card{
+       
+        margin-top: 0;
+
+        
+      }
+      #company-text{
+        margin-top: 100px;
+      }
+      #company-logo{
+        width: 110vw;
+        height: 80px;
+        margin-top: 30px;
+        margin-left: -30px;
+    
+      }
+      
+      #footerimg1 {
+        width: 200px; 
+        height: 180px;  
+      } 
+
+     #footerimg2 {
+   
+       width: 180px; 
+      height: 400px;  
+   
+     }
+     .footerNav ul>h1{
+        margin-left: -30px;
+        margin-right: 10px;
+        font-size: 1.5em;
+    
+       
+      }
+    
+    
+      .footerNav ul>li{
+        margin-left: 10px;
+        margin-right:10px;
+        font-size: 0.8em;
+    
+      }
+      
+     .footer ul > li {
+       font-size: small;
+        margin: 0px;
+    }
+
+
+
+      
+          
+
+
+}
+
+/* Additional Mobile Styles */
+@media only screen and (max-width: 320px) {
+    .Top a {
+        font-size: 18px; 
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .Top h1 {
+        padding-left: 30%; 
+        font-size: 25px; 
+    }
+    .one h1 {
+        font-size: 1.5em; 
+        margin-bottom: -50px; 
+    }
+
+    #mySearch {
+        width: 40vw; 
+        font-size: 15px;
+    }
+
+    #locationSearch > button {
+        width: 20vw; 
+        font-size: 15px;
+    }
+    .two {
+        grid-template-columns: 1fr;
+        font-size: 18px;
+        margin-bottom: 50px;
+    }
+   
+
+    #image-section {
+        height: 150px;
+        margin-bottom: 0vh;
+    }
+    #text-section{
+        margin:0%;
+        margin-bottom:10%;
+    }
+
+    #text-section h3 {
+        font-size: 1em;
+    }
+
+    #text-section p {
+        font-size: 0.8em;
+    }
+
+    #text-section button {
+        width: 170px; 
+        height: 50px;
+        font-size: 20px;
+    }
+    .header-container {
+        flex-direction: column; 
+        align-items: center; 
+        margin-top: -10px;
+    }
+    .header-container .left-section, 
+    .header-container .right-section {
+        width: 100%; 
+        margin-left: 150px; 
+    }
+    .header-container .right-section {
+         
+        margin-left: 250px; 
+    }
+
+    .header-container .left-section h1,
+    .header-container .right-section h1 {
+        font-size: 18px; 
+    }
+    .popularContent{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        height: 2000px;
+    }
+    .detail{
+        margin-top: -40px;
+        
+    }
+    
+     
+    
+    .img1{
+    
+    height:200px;
+    }
+      
+    .fourth .box-content{
+        grid-template-columns:1fr ;
+    
+    }
+
+    .banner {
+       
+        width: 75%;
+        height: 320px;
+        padding-top: 5%;
+       
+    }
+    .banner h1 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    #banimg1 {
+        width: 100px;
+        height: 90px;
+      
+    }
+    
+    #banimg2 {
+        width: 120px;
+        height: 60px;
+       
+    }
+    .container h1{
+        font-size: 1.5em;
+    }
+    .company {
+        width: 300px;
+        height: 30vh;
+        padding: 20px;
+        padding-top: 10%;
+        margin-left: -50px;
+       
+      }
+
+      #company-card{
+       
+        margin-top: 0;
+
+        
+      }
+      #company-text{
+        margin-top: 100px;
+      }
+
+      #company-logo{
+        width: 110vw;
+        height: 80px;
+        margin-top: 30px;
+        margin-left: -30px;
+    
+      }
+      #footerimg1 {
+        width: 200px; 
+        height: 180px;  
+      } 
+
+     #footerimg2 {
+   
+       width: 180px; 
+      height: 400px;  
+   
+     }
+     .footerNav ul>h1{
+        margin-left: -30px;
+        margin-right: 10px;
+        font-size: 1em;
+    
+       
+      }
+    
+    
+      .footerNav ul>li{
+        margin-left: 10px;
+        margin-right:10px;
+        font-size: 0.7em;
+    
+      }
+       
+     .footer ul > li {
+        font-size: small;
+         margin: 0px;
+     }
+ 
+ 
+      
+      
+
+
+
+
+}
+
